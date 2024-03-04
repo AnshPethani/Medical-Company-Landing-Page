@@ -1,0 +1,541 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.header{
+    font-size: x-large;
+    background-color: #1767ec;
+    color: black;
+    margin-left: 3%;
+    z-index: 999;
+    margin-inline-start: auto; 
+    margin-top: 0px;
+    height: min-content;
+    width: 100%;
+}
+
+.header_btn {
+    color: black;
+    background-color: #1767ec;
+    border-radius: 5px;
+    border: 1px black;
+    font-size: 22.5px;
+    padding: 5px;
+    width: 110%;
+    height: 60%;
+    margin-top: 10%;
+    font-weight: 550;
+}
+
+.header_btn:hover {
+    color: white;
+    background-color: #163396;
+    border-radius: 5px;
+    box-shadow: 0 2px 7px 2px #163396;
+    font-weight: 600;
+}
+
+.hamburger-menu {
+    display: none; /* Hide by default on larger screens */
+    cursor: pointer;
+    z-index: 1000;
+    position: fixed;
+    top: 15px;
+    left: 15px;
+    flex-wrap: wrap;
+}
+
+.bar {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    margin: 5px 0;
+}
+
+.heading2{
+    font-size: large;
+}
+
+.form_border{
+    border: 2px solid gray;
+    width: 50%;
+    padding-right: 10%;
+    padding-left: 10%;
+    padding-bottom: 2%;
+    padding-top: 0%;
+    border-radius: 15px;
+    box-shadow: 1px 1px 4px black, -1px -1px 4px gray;
+    font-size: 20px;
+}
+
+.headimg{
+    width: 90%;
+    margin-right: 0px;
+    padding-top: 5px;
+    padding-bottom: 0px;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.dropdown {
+    position: relative;
+  }
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #163396;
+    border: 1px solid black;
+    z-index: 1;
+    margin-top: auto;
+    text-align: center;
+    align-items: center;
+    width: 130%;
+}
+  
+.dropdown-content a {
+    color: white;
+    padding: 15px;
+    text-decoration: none;
+    display: block;
+    font-weight: 400;
+}
+  
+.dropdown-content a:hover {
+    background-color: #1767ec;
+    color: black;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.title{
+    font-weight: bold;
+    color: black;
+    font-size: 45px;
+    align-items: center;
+    text-align: center;
+}
+
+.hometxt{
+    color: black;
+    font-size: 45px;
+    padding-left: 10%;
+}
+
+.bg{
+    background-color: whitesmoke;
+    max-width: 100%;
+}
+
+.sub_btn{
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid black;
+    padding: 1%;
+    width: 100px;
+    color: black;
+}
+
+.sub_btn:hover{    
+    background-color: #163396;
+    font-weight: bold;
+    color: white;
+    border: 1px solid black;
+}
+
+.inp{
+    background-color: transparent;
+    border:  1.5px solid black;
+    border-radius: 10px;
+    color: black;
+}
+
+.frm{
+    color: black;
+    font-size: large;
+}
+
+.heading{
+    text-align: center; 
+    font-weight: bolder; 
+    font-size: 80px;
+    color: black;
+}
+
+.team{
+    border: 1px solid black;
+    margin-top: 3%;
+    margin-bottom: 1%;
+    padding: 1.5%;
+    border-radius: 10px;
+    text-align: left;
+    max-width: 100%;
+    box-shadow: #163396 0px 5px 10px 0.5px, #163396 0px -5px 10px 0.5px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    font-size: 20px;
+}
+
+.docpic{
+    width: auto;
+    border-radius: 10px;
+    border: 2px solid black ;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    height: 250px;
+}
+
+.homeimg{
+    border: 1.5px solid black;
+    overflow: hidden;
+    border-radius: 15px;
+    height: 350px;
+    width: 100%;
+}
+
+.home{
+    font-size: 25px;
+    color: black;
+    padding: 25px;
+    padding-right: 4%;
+    margin-bottom: 12%;
+    padding-top: 5%;
+    margin-left: 0%;
+    padding-left: 0px;
+    margin-right: 2%;
+}
+
+.carousel{
+    position: relative;
+    box-shadow: rgb(38, 57, 77) 0px 30px 15px -10px;
+    border-radius: 15px;
+}
+
+.bodymain{
+    margin-left: 0%;
+    margin-right: 0%;
+    padding-left: 0%;
+    padding-right: 0%;
+}
+
+.example::-webkit-scrollbar {
+    display: none;
+    width: 100%;
+}
+  
+.example {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+    width: 100%;
+}
+
+.button-container {
+    position: fixed;
+    top: 40%;
+    right: 0px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    z-index: 999; /* Set a high z-index to keep it on top */
+    margin-right: 0%;
+    padding-right: 0%;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
+/* Style for buttons */
+.button-container button {
+    display: block;
+    margin-bottom: 0px;
+    margin-right: 0px;
+    width: 85px;
+    border: 0px;
+    height: auto;
+    color: black;
+    background-color: transparent;
+}
+
+.button-container button:hover {
+    background-color:#163396;
+    color: white;
+}
+
+.sidebtn{
+    text-decoration: none;
+    text-transform: none;
+    text-decoration: none;
+}
+
+.btnimg{
+    width: 30%;
+}
+
+.logobtn{
+    background-color: transparent;
+    border: 0px;
+}
+
+.stats_box{
+    background-color: whitesmoke;
+    padding: 1%;
+    margin: 2%;
+    border-radius: 10px;
+    width: 80%;
+    height: min-content;
+    display: flex;
+    align-items: center;
+    border: 1px solid gray; /* Example border for visualization */
+    box-shadow: rgba(128, 128, 128, 0.4) -3px 3px, rgba(128, 128, 128, 0.3) -6px 6px, rgba(128, 128, 128, 0.2) -9px 9px, rgba(128, 128, 128, 0.1) -12px 12px, rgba(128, 128, 128, 0.05) -15px 15px;
+
+}
+
+.statstxt{
+    width: max-content;
+    color: black;
+    font-size: 22.5px;
+}
+
+.stepsbox{
+    height: fit-content;
+    width: max-content;
+    border: 1px darkblue solid;
+    margin: 20px;
+    padding: 10px;
+    border-top-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    box-shadow: -5px -5px 2.5px #163396;
+    font-size: 20px;
+}
+
+.testbox{
+    border: 1px darkblue solid;
+    padding: 8px;
+    margin: 7px;
+    border-radius: 10px;
+    box-shadow: -2px -2px 2.5px #163396, 2px 2px 2.5px #163396;
+    font-size: 20px;
+    height: fit-content;
+    width: max-content;
+}
+
+.offerings{
+    padding: 2.5px;
+    margin: 0%;
+    margin-top: 1px;
+}
+
+.offerbox{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.aboutbox{
+    padding: 20px;
+    margin: 10px;
+    margin-left: 25px;
+    margin-right: 25px;
+    font-size: 20px;
+    color: black;
+}
+
+.aboutus{
+    padding: 2.5px;
+    margin: 0%;
+    margin-top: 1px; 
+}
+
+.footerlogo{
+    width: 50%;
+    padding-left: 0px;
+    margin-left: 0px;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.footer{
+    background-color: #1767ec;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    width: 100%;
+    height: 20%;
+}
+
+.add{
+    text-align: left;
+    font-size: 20px;
+    color: black;
+    font-weight: 500;
+    margin-top: auto;
+    margin-bottom: auto;
+    display: block;
+}
+
+.social{
+    width: 20%;
+    padding-bottom: 10px;
+    padding-top: 0px;
+    margin-top: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.linksbox{
+    margin-top: 3%;
+    text-decoration: none;
+}
+
+.links{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    margin: 10%;
+    padding: 10%;
+    font-weight:500;
+}
+
+.links:hover{
+    text-decoration: none;
+    text-transform:none;
+    color: black;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    .responsive-header {
+        width: 45%; /* Set width to 50% on smaller screens */
+        height: 100%; /* Set height to 100% on smaller screens */
+        position: fixed;
+        background-color: lightgray;
+    }
+
+    .hamburger-menu {
+        display: block; /* Show the hamburger icon on smaller screens */
+        z-index: 100;
+        position: fixed;
+    }
+
+    /* Hide the regular navigation links */
+    .header .row {
+        display: none;
+    }
+
+    /* Show the navigation links as a dropdown when hamburger icon is clicked */
+    .header .row.show {
+        display: block;
+    }
+
+    .header_btn{
+        width: 100%;
+    }
+
+    .stepsbox{
+        width: max-content;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+
+    .headimg {
+        max-width: 100%;
+    }
+
+    .hometxt{
+        font-size: 110%;
+        padding-top: 15%;
+    }
+
+    .stats_box{
+        box-shadow: 1px 1px 4px black, -1px -1px 4px gray;
+        width: 520px;
+        height: 80px;
+    }
+
+    .stats_box:hover{
+        box-shadow: 1px 1px 4px black, -1px -1px 4px gray;
+    }
+
+    .button-container {
+        right: 0px; /* Adjust for smaller screens */
+        top: 40%;
+    }
+
+    .button-container button {
+        width: 80px; /* Adjust button width for smaller screens */
+        height: 20%;
+    }
+    
+    .button-container button:hover {
+        background-color:lightgray;
+        color: black;
+        box-shadow: none;
+    }
+
+    .bodymain{
+        margin-top: 0px;
+    }
+
+    .sub_btn{
+        background-color: #163396;
+        font-weight: bold;
+        color: white;
+        border: 1px solid black;
+    }
+
+    .dropdown-content a{
+        border: 0.5px solid black;
+        border-radius: 5px;
+    }
+    
+    .dropdown-content{
+        width: 100%;
+    }
+
+    .header_btn:hover {
+        color: black;
+        background-color: #1767ec;
+        box-shadow: none;
+    }
+
+    .dropdown-content a:hover {
+        background-color: #163396;
+        color: white;
+        font-weight: normal;
+    }
+
+    .form_border{
+        width: max-contentfsdue;
+    }
+
+    .team{
+        border: 2px solid black;
+        margin: 2%;
+        padding: 1%;
+        border-radius: 10px;
+        text-align: left;
+        width: 650px;
+        box-shadow: #163396 0px 5px 10px 0.5px, #163396 0px -5px 10px 0.5px;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+        font-size: 20px;
+    }
+
+    .docpic{
+        height: 250px;
+    }
+
+    .social{
+        width: 40%;
+    }
+}
